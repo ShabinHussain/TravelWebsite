@@ -85,6 +85,17 @@ body{
 }
 
 
+.flink1{
+  text-decoration: none;
+}
+
+.flink1:hover{
+  font-size: 20px;
+  color: black;
+}
+
+
+
 
  @media(min-width:350px){
   
