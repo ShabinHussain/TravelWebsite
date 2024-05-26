@@ -33,13 +33,57 @@ body{
     
  }
 
- .navbar1{
-    position: fixed;
- }
+ 
 
  .ftr{
-  height: 250px;
+  height: 610px;
 }
+
+.csize{
+  width: 350px
+}
+
+.upsize{
+  margin-top: 155px;
+}
+
+.fnt{
+  font-weight: bolder;
+  color: black;
+}
+
+.fnt1{
+  color: blue;
+  font-weight: bolder;
+
+}
+
+.testimonial{
+  margin-top: 8%;
+}
+
+.testimonial .people{
+  margin-left: 8%;
+}
+
+.textiImg{
+  width: 100px;
+  height: 100px;
+}
+
+.fntsize{
+  font-size: 15px;
+}
+
+.flink{
+  text-decoration: none;
+}
+
+.flink:hover{
+  font-size: 20px;
+  color: azure;
+}
+
 
 
  @media(min-width:350px){
@@ -57,12 +101,12 @@ body{
   }
 
   .best{
-    height:1350px;
-    margin-top: -17px;
+    height:3500px;
+    margin-top: 2px;
   } 
 
   .best1{
-    height: 1500px;
+    height: 1300px;
     border-right: 5px solid yellow;
     border-bottom: 5px solid yellow;
     border-left: 5px solid red;
@@ -85,6 +129,8 @@ body{
     height: 600px;
    }
 
+   
+
 
  
 
@@ -94,15 +140,10 @@ body{
   
 }
 
-@media(min-width:375px){
-  .ftr{
-    height:700px;
-  }
 
-}
 @media(min-width:750px){
   .ftr{
-    height:250px;
+    height:200px;
   }
 
   #logo{
@@ -185,6 +226,7 @@ body{
    margin-top: 150px;
  }*/
 
+ 
  @media(min-width:350px){
    .marg{
      margin-top: 130px;
@@ -447,7 +489,9 @@ body{
     }
 
     .best{
-      height: 800px;
+      height: 1050px;
+      margin-top: -17px;
+      
      }
 
      
